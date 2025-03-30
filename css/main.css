@@ -8,59 +8,6 @@ main {
   gap: 100px;
 }
 
-.content-main img {
-  display: block;
-  height: auto;
-  border-radius: 8px 4px 4px 4px;
-  object-fit: cover;
-}
-
-#pictureMyself {
-  display: block;
-  height: 400px;
-  width: auto;
-  border-radius: 8px 4px 4px 4px;
-  object-fit: cover;
-  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
-}
-
-.armazem {
-  position: relative;
-  width: 500px;
-  height: auto;
-}
-
-.button-icon {
-  background: white;
-  border: 1px solid black;
-  width: 45px;
-  height: 45px;
-  border-radius: 50%;
-  position: absolute;
-  top: 40%;
-  left: 70%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-}
-
-.button-icon2 {
-  background: white;
-  border: 1px solid black;
-  width: 45px;
-  height: 45px;
-  top: 45%;
-  right: 98%;
-  border-radius: 50%;
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-}
-
-
 .main-2 {
   align-self: center;
 }
@@ -198,14 +145,13 @@ main {
 }
 
 @media (min-width: 300px) and (max-width: 990px) {
-
   .content {
     display: flex;
     align-items: center;
     padding: 20px 40px;
   }
 
-  .conteiner-global{
+  .conteiner-global {
     padding: 40px 20px;
   }
 

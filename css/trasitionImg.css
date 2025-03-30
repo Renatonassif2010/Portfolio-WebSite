@@ -1,0 +1,48 @@
+.image {
+  background-image: url("/img/img-logo.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 350px;
+  min-height: 400px;
+  border-radius: 8px 4px 4px 4px;
+  transition: 0.5s;
+}
+
+#image.active {
+  background-image: url("/img/pictureMyself.jpg");
+}
+
+.armazem {
+  position: relative;
+}
+
+.button-icon {
+  background: white;
+  border: 1px solid black;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  position: absolute;
+  top: 33%;
+  right: -2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.button-icon:hover {
+  transform: scale(1.1);
+}
+
+.button-icon.active {
+  transform: rotate(-180deg);
+  top: 45%;
+  right: 93%;
+}
+
+@media (max-width: 950px) {
+  .armazem {
+    display: none;
+  }
+}
