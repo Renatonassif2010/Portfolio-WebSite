@@ -1,15 +1,14 @@
 .image {
-  background-image: url("./img/img-logo.jpg");
-  background-repeat: no-repeat;
-  background-size: contain;
   width: 350px;
   min-height: 400px;
   border-radius: 8px 4px 4px 4px;
   transition: 0.5s;
 }
-
+#image.active img {
+  display: none;
+}
 #image.active {
-  background-image: url("./img/pictureMyself.jpg");
+  background-image: url(../img/pictureMyself.jpg);
   background-size: contain;
   background-repeat: no-repeat;
 }
