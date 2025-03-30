@@ -1,5 +1,5 @@
 .image {
-  background-image: url("/img/img-logo.jpg");
+  background-image: url("img/img-logo.jpg");
   background-repeat: no-repeat;
   background-size: contain;
   width: 350px;
@@ -9,7 +9,7 @@
 }
 
 #image.active {
-  background-image: url("/img/pictureMyself.jpg");
+  background-image: url("img/pictureMyself.jpg");
   background-size: contain;
   background-repeat: no-repeat;
 }
