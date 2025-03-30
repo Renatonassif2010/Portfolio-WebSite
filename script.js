@@ -2,7 +2,7 @@
 function nextImg() {
   let fotoMyself = document.getElementById("Myself");
   if (fotoMyself) {
-    let imgMyself = "/img/pictureMyself.jpg";
+    let imgMyself = "img/pictureMyself.jpg";
     let altImg = "Foto de mim mesmo";
     let button = document.getElementById("button-icon");
     let button2 = document.getElementById("button-icon2");
