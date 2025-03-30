@@ -6,7 +6,7 @@
 
 .content ul {
   display: flex;
-  gap: 0.5rem;
+  gap: 2rem;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -18,17 +18,27 @@
 
 .content ul li a {
   font-size: 1.225rem;
-  padding: 1rem 2rem;
   text-decoration: none;
   color: inherit;
 }
-
-.content ul li a:hover {
-  color: rgba(0, 0, 0, 0.439);
-}
-
 .content ul li:hover {
   transform: scale(1.2);
+  color: rgba(0, 0, 0, 0.439);
+}
+.content ul li a::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 0;
+  bottom: 0;
+  left: 0;
+  background: orange;
+  transition: all 0.3s ease;
+}
+.content ul li a:hover::after {
+  content: "";
+  width: 75%;
+  height: 2px;
 }
 
 header img {

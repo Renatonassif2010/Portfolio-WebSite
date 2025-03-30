@@ -2,7 +2,7 @@
   width: 350px;
   min-height: 400px;
   border-radius: 8px 4px 4px 4px;
-  transition: 0.5s;
+  transition: all 1s ease;
 }
 #image.active img {
   display: none;
@@ -25,12 +25,12 @@
   border-radius: 50%;
   position: absolute;
   top: 33%;
-  right: -2%;
+  right: -4%;
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  transition: transform 0.3s ease;
+  transition: all 0.3s ease;
 }
 .button-icon:hover {
   transform: scale(1.1);
