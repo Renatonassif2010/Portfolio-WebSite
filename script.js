@@ -38,7 +38,7 @@ function nextImg() {
 function prevImg() {
   let fotoMyself = document.getElementById("pictureMyself");
   if (fotoMyself) {
-    let imgMyself = "/img/img-logo.jpg";
+    let imgMyself = "img/img-logo.jpg";
     let altImg = "Logo";
     let button = document.getElementById("button-icon");
     let button2 = document.getElementById("button-icon2");
