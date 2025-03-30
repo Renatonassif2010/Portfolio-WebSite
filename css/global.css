@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+body {
+  height: 100dvh;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  margin: 20px auto 0;
+}
+
+.conteiner-global,
+.conteiner-formacao-main {
+  max-width: 1200px;
+  margin: 0 auto;
+}

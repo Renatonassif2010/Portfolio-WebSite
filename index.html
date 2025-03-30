@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Renato Nassif - Desenvolvedor Web e Estudante de Programação</title>
+    <link rel="icon" href="/img/detalhe.svg" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!--Inicio Header-->
+    <header>
+      <div class="content">
+        <img src="/img/Img-Logo.png" alt="Logo " />
+
+        <nav aria-label="primary-navigation">
+          <ul class="ul-header animate__animated animate__bounce">
+            <li>
+              <a href="https://github.com/Renatonassif2010" target="_blank"
+                >GitHub</a
+              >
+            </li>
+            <li>
+              <a href="#grid-main-expirience">Experiência</a>
+            </li>
+            <li>
+              <a href="#formação">Formação</a>
+            </li>
+            <li>
+              <a href="#footer">Contato</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!--Fim Header-->
+
+    <!--Inicio main-->
+    <main aria-label="main">
+      <div class="conteiner-global animate__animated animate__fadeInDown">
+        <div class="content-main" id="experiência">
+          <div class="armazem">
+            <img src="/img/img-logo.jpg" alt="Logo" class="img-1" id="Myself" />
+
+            <div onclick="nextImg()" class="button-icon" id="button-icon">
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+
+            <div
+              class="button-icon2"
+              id="button-icon2"
+              style="display: none"
+              onclick="prevImg()"
+            >
+              <i class="fa-solid fa-angle-left"></i>
+            </div>
+          </div>
+
+          <div class="main-2">
+            <h3 class="h3-main">Técnico em</h3>
+            <h3>FRONT-</h3>
+            <h3>END</h3>
+            <div class="icon">
+              <p>Localização em São Paulo</p>
+              <img src="/img/Point.jfif" alt="Localização" />
+            </div>
+          </div>
+        </div>
+        <div class="grid-main-expirience" id="grid-main-expirience">
+          <div class="experiencia-fundo">
+            <h1>Experiência</h1>
+          </div>
+          <section class="content-experience" aria-label="Experiência">
+            <div class="paragrafo">
+              <p>
+                Atualmente, sou <span>estudante</span> do
+                <span>Curso de Desenvolvimento Web</span> em <span>HTML,</span>
+                <span>CSS</span> e <span>JavaScript</span>
+                me aprimorando para me tornar um
+                <span>Desenvolvedor Full Stack.</span>
+              </p>
+            </div>
+            <div class="curriculo">
+              <div class="div">
+                <span>08/08/24 a 15/11/24</span>
+                <h3>Estudante de Programação</h3>
+                <p>
+                  No curso de programação web, cobri HTML, CSS e Design de UI, e
+                  tive um ótimo desempenho no curso.
+                </p>
+              </div>
+              <div class="div-2">
+                <h3>Habilidades</h3>
+                <ul class="empresa-habilidades">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>DESIGN DE UI</li>
+                  <li>DESIGN DE UX</li>
+                </ul>
+              </div>
+            </div>
+            <div class="curriculo">
+              <div class="div">
+                <span>Atualmente</span>
+                <h3>Aprendiz de Programação</h3>
+                <p>
+                  Atualmente, trabalho na criação de sites, usando CSS e também
+                  introduzo a linguagem HTML. Uso JavaScript para focar na
+                  lógica de programação.
+                </p>
+              </div>
+              <div class="div-2">
+                <h3>Linguagens e Experiências</h3>
+                <ul class="empresa-habilidades">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>DESIGN DE UI</li>
+                  <li>DESIGN DE UX</li>
+                  <li>Lógica de Programação</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <section
+        class="formação"
+        id="formação"
+        aria-label="educação"
+        data-aos="fade-up"
+        data-aos-duration="3000"
+      >
+        <div class="conteiner-formacao-main">
+          <h1 class="subtitulo">Formação</h1>
+          <div
+            class="item-formação"
+            data-aos="fade-right"
+            data-aos-duration="3000"
+          >
+            <p>
+              Atualmente estudando na
+              <b style="color: white">Amigos da Tia Edna 📚 Zona Sul</b> . Além
+              disso, me esforço para me manter atualizado com cursos presenciais
+              e online.
+            </p>
+            <div class="conteiner-formacao">
+              <div
+                class="content-form"
+                data-aos="flip-right"
+                data-aos-duration="3000"
+              >
+                <ul>
+                  <li>
+                    <span class="tecnico">Graduado</span>
+                    <h3>Linguagem de Programação JavaScript</h3>
+                    <span>Curso Online</span>
+                  </li>
+                </ul>
+              </div>
+              <div
+                class="content-form"
+                data-aos="flip-up"
+                data-aos-duration="3000"
+              >
+                <ul>
+                  <li>
+                    <span class="tecnico">Graduado</span>
+                    <h3>Linguagem de Marcação HTML <br /></h3>
+                    <span> Amigos da Tia Edna (curso)</span>
+                  </li>
+                </ul>
+              </div>
+              <div
+                class="content-form"
+                data-aos="flip-left"
+                data-aos-duration="3000"
+              >
+                <ul>
+                  <li>
+                    <span class="tecnico">Graduado</span>
+                    <h3>Linguagem de Estilização CSS</h3>
+                    <span> Amigos da Tia Edna (curso)</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="cursos">
+              <h3>CURSOS</h3>
+              <ul class="curso">
+                <li>HTML, CSS e Design de UI e UX<span>60h</span></li>
+                <li>Inglês (Udemy e autodidata)<span>10,5h</span></li>
+                <li>JavaScript (Udemy)<span>8h</span></li>
+                <li>JavaScript (Curso em vídeo)<span>40h</span></li>
+                <li>
+                  JavaScript e React (ainda estudando)<span>Indefinido</span>
+                </li>
+              </ul>
+              <span class="span-total">Total: 118,5h</span>
+            </div>
+            <div class="cursos">
+              <h3 class="experiencias">EXPERIÊNCIA</h3>
+              <ul class="curso">
+                <li>Design (Básico, ex.: logos, menus, cartazes, etc.)</li>
+                <li>Word (Intermediário, ex.: documentos, textos, etc.)</li>
+                <li>
+                  Computação (Intermediário, ex.: atalhos, configurações,
+                  propriedades de arquivos, etc.)
+                </li>
+                <li>
+                  Experiência com computadores (6 anos de experiência, ex.:
+                  configurações para jogos, desempenho, gráficos e melhores
+                  experiências de jogo, etc.)
+                </li>
+              </ul>
+            </div>
+            <div class="cursos">
+              <h3 class="idiomas">IDIOMAS</h3>
+              <ul class="curso">
+                <li>Inglês /Avançado</li>
+                <li>Português /Nativo</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!--Fim main-->
+
+    <!--Inicio Footer-->
+    <footer
+      id="footer"
+      aria-label="rodapé"
+      data-aos="fade-up-right"
+      data-aos-duration="1000"
+    >
+      <div class="conteiner-footer">
+        <p class="p-1">
+          Atualmente estou disponível para ofertas de emprego e novos projetos.
+          Entre em contato comigo para negociar e agendar uma conversa. Obrigado
+          pela sua compreensão 👋
+        </p>
+        <ul>
+          <li>
+            <a
+              href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=GTvVlcSBptPSfKJsVwMMJwZzxVgchpVhLwSkcWGcMDDdQQfrRCZZSlMSJfJJNJjvVssCdxFphDKTl"
+              target="_blank"
+              >renatonassif2010@gmail.com</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/renato-nassif-b50aa033b/"
+              target="_blank"
+              >LinkedIn</a
+            >
+          </li>
+        </ul>
+        <p class="p-2">&copy; Renato Nassif. Alguns direitos reservados.</p>
+        <span class="whts">
+          <i
+            class="fa-brands fa-whatsapp"
+            style="color: green; font-size: 40px"
+          ></i
+          >11 96438-8098</span
+        >
+      </div>
+    </footer>
+    <!--Fim Footer-->
+
+    <!--js e animações-->
+    <script src="index.js"></script>
+    <script
+      src="https://kit.fontawesome.com/217d8cf236.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
