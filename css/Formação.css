@@ -73,7 +73,6 @@
 
 .cursos {
   margin-top: 40px;
-  font-size: 1.125rem;
   transition: 2s;
 }
 
@@ -102,7 +101,7 @@ span {
 }
 
 .cursos ul li {
-  line-height: 1.1rem;
+  line-height: 1.5rem;
 }
 
 .span-total {
@@ -126,6 +125,7 @@ span {
   background: url(../img/cursos.svg) no-repeat center center;
   left: -36px;
   top: -4px;
+  transition: 1s;
 }
 
 .cursos .idiomas::before {
@@ -331,7 +331,7 @@ span {
   .cursos .curso span {
     font-size: 12px;
   }
-  .span-total{
+  .span-total {
     font-size: 15px;
   }
 }

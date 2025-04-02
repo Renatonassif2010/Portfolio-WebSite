@@ -25,7 +25,7 @@
   border-radius: 50%;
   position: absolute;
   top: 33%;
-  right: -4%;
+  right: -5%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -42,7 +42,7 @@
   right: 93%;
 }
 
-@media (max-width: 950px) {
+@media (max-width: 999px) {
   .armazem {
     display: none;
   }
