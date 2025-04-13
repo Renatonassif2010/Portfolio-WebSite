@@ -42,11 +42,12 @@ main {
 
 .icon {
   display: flex;
+  align-items: center;
 }
 
 .icon img {
-  height: 20px;
-  width: 20px;
+  height: 25px;
+  width: 25px;
 }
 
 .grid-main-expirience {
@@ -137,6 +138,9 @@ main {
 }
 
 @media (min-width: 1000px) and (max-width: 1400px) {
+  .content {
+    padding: 0 20px;
+  }
   .conteiner-global {
     padding: 40px 20px;
   }

@@ -10,17 +10,66 @@
   align-items: center;
   width: 70px;
   height: 26px;
+  border: 1px solid gainsboro;
   border-radius: 20px;
-  background: oklch(39.2% 0.044 257.287);
+  background: oklch(35.2% 0.044 257.287);
 }
 .item {
   position: absolute;
   width: 18px;
   height: 18px;
-  margin-left: 49px;
+  margin-left: 3px;
   border-radius: 50%;
   background: #fff;
 }
+
+.button-theme.active {
+  background: #000;
+}
+
 .button-theme.active .item {
-  margin-left: 49px;
+  margin-left: 47px;
+}
+
+body.active {
+  background: #262626;
+}
+
+body.active header ul li,
+.flex {
+  color: #a3a3a3;
+}
+
+body.active h3 {
+  color: #e8e8e8c9;
+}
+
+body.active .paragrafo p {
+  color: #c8c8c8;
+}
+
+body.active .paragrafo span {
+  color: #999999;
+  text-decoration: underline #fff;
+}
+
+body.active .curriculo {
+  background: #141414;
+}
+
+body.active .curriculo p {
+  background: #141414;
+  color: #fff;
+}
+
+body.active header img {
+  background: #fff;
+}
+
+body.active .experiencia-fundo h1 {
+  color: #e8e8e8c9;
+}
+
+body.active .conteiner-formacao-main {
+  border-top: 1px solid gainsboro;
 }
