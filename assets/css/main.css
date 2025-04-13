@@ -142,6 +142,10 @@ main {
     height: 10px;
     left: 0px;
   }
+
+  .button-icon {
+    left: 97%;
+  }
 }
 
 @media (min-width: 300px) and (max-width: 990px) {

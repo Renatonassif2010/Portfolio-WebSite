@@ -1,0 +1,40 @@
+.pointer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  position: fixed;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: 1px solid #000;
+}
+
+.pointerChild {
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  background: linear-gradient(to right, #a8e063, #5bbc2f);
+  border-radius: 50%;
+}
+
+#button-icon {
+  cursor: none;
+}
+
+a {
+  cursor: none;
+}
+.conteiner-footer ul li:hover {
+  opacity: 70%;
+  transition: 0.3s;
+}
+
+html {
+  cursor: none;
+}
+@media (max-width: 1114px) {
+  .pointer {
+    display: none;
+  }
+}

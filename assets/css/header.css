@@ -17,10 +17,12 @@
 }
 
 .content ul li a {
+  cursor: none;
   font-size: 1.225rem;
   text-decoration: none;
   color: inherit;
 }
+
 .content ul li:hover {
   transform: scale(1.2);
   color: rgba(0, 0, 0, 0.439);
