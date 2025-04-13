@@ -12,6 +12,10 @@ main {
   align-self: center;
 }
 
+.image img {
+  border-radius: 8px 4px 2px 1px;
+}
+
 .content-main h3 {
   font-size: 4.5rem;
   line-height: 1.025;

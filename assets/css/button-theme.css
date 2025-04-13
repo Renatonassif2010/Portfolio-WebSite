@@ -1,0 +1,26 @@
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.button-theme {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 70px;
+  height: 26px;
+  border-radius: 20px;
+  background: oklch(39.2% 0.044 257.287);
+}
+.item {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  margin-left: 49px;
+  border-radius: 50%;
+  background: #fff;
+}
+.button-theme.active .item {
+  margin-left: 49px;
+}
