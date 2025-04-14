@@ -79,17 +79,9 @@ body.active .conteiner-global {
 }
 
 @media (max-width: 375px) {
-  .button-theme.active .item {
-    left: 40px;
-  }
-}
-@media (max-width: 368px) {
-  .button-theme.active .item {
-    left: 37px;
-  }
-}
-@media (max-width: 320px) {
-  .button-theme.active .item {
-    left: 22px;
+  .flex {
+    gap: 10px;
+    align-items: flex-start;
+    flex-direction: column;
   }
 }
