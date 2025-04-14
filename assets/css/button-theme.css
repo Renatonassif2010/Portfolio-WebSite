@@ -28,11 +28,13 @@
 }
 
 .button-theme.active .item {
-  margin-left: 47px;
+  left: 43px;
 }
+
 body {
   transition: 0.3s ease-in-out;
 }
+
 body.active {
   background: #262626;
 }
@@ -74,4 +76,20 @@ body.active .experiencia-fundo h1 {
 
 body.active .conteiner-global {
   border-bottom: 1px solid gainsboro;
+}
+
+@media (max-width: 375px) {
+  .button-theme.active .item {
+    left: 40px;
+  }
+}
+@media (max-width: 368px) {
+  .button-theme.active .item {
+    left: 37px;
+  }
+}
+@media (max-width: 320px) {
+  .button-theme.active .item {
+    left: 22px;
+  }
 }
