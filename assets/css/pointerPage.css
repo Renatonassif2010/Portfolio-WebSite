@@ -37,4 +37,8 @@ html {
   .pointer {
     display: none;
   }
+
+  html {
+    cursor: default;
+  }
 }
